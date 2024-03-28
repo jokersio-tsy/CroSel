@@ -24,8 +24,6 @@ def set_parser():
                         help='initial learning rate')
     parser.add_argument('--wdecay', default=1e-4, type=float,
                         help='weight decay')
-    parser.add_argument('--T', default=1, type=float,
-                        help='pseudo label temperature')
     parser.add_argument('--out', default='result',
                         help='directory to output the result')
     parser.add_argument('--seed', default=5, type=int,
