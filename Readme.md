@@ -6,8 +6,8 @@ CroSel: Cross Selection of Confident Pseudo Labels for Partial-Label Learning (A
 [[Arxiv]](https://arxiv.org/abs/2303.10365)
 
 ## Algorithm overview
-![image-frame](img\frame.png)
-![image-pseudo_code](img\pseudo_code.png)
+![image-frame](https://raw.githubusercontent.com/jokersio-tsy/CroSel/main/img/frame.png)
+![image-pseudo_code](https://raw.githubusercontent.com/jokersio-tsy/CroSel/main/img/pseudo_code.png)
 
 ## Train Command
 
