@@ -154,7 +154,7 @@ def main():
 
         with open(os.path.join("./result/", args.out +
                                     '_training_results.csv'), 'a') as f:
-            f.write('%03d,%05d,%0.6f,%0.2f,%0.2f,%0.2f,%0.2f,%0.5f,%0.2f\n' % (
+            f.write('%03d,%05d,%0.6f,%0.4f,%0.2f,%0.4f,%0.2f,%0.5f,%0.2f\n' % (
             (epoch + 1),
             time.time() - begin_epoch,
             train_loss,
