@@ -55,7 +55,7 @@ def main():
     args.device=device 
 
     model1 = model1.to(args.device)
-    model2 = model1.to(args.device)
+    model2 = model2.to(args.device)
 
     logging.basicConfig(format='[%(asctime)s] - %(message)s',
                     datefmt='%Y/%m/%d %H:%M:%S',
